@@ -3,6 +3,8 @@ import os
 def run(**args):
 
     print ("[*] In dirlister module.")
-    files = os.listdir(".")
+    for i in range(1,5):
+        print ("BHARAT MATA ki Jai")
+    #files = os.listdir(".")
 
     return str(files)
